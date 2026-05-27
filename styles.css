@@ -41,12 +41,13 @@ body, html {
 
 .menu a {
   display: block;
-  color: white;
+  color: rgb(255, 14, 239);
   text-decoration: none;
   padding: 12px;
   margin-bottom: 10px;
   border-radius: 8px;
-  background-color: rgba(255,255,255)
+  background-color: rgba(255,255,255);
+  transition: 0.3s;
 }
 
 .content {
@@ -54,4 +55,12 @@ body, html {
   background-color: rgb(60, 14, 226);
   padding: 20px;
   width: 70%;
+}
+
+.game{
+  order: 3;
+  display: flex;
+  background-color: blue;
+  width: 67%;
+
 }
