@@ -64,3 +64,10 @@ body, html {
   width: 67%;
 
 }
+
+footer {
+  background-color: #777;
+  padding: 50px;
+  text-align: center;
+  color: white;
+}
